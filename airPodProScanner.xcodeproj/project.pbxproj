@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F607CE252E0A8100E160CB /* airPodProScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F607CD252E0A8100E160CB /* airPodProScannerApp.swift */; };
+		A4F607D0252E0A8100E160CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F607CF252E0A8100E160CB /* ContentView.swift */; };
+		A4F607D2252E0A8200E160CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F607D1252E0A8200E160CB /* Assets.xcassets */; };
+		A4F607D5252E0A8200E160CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F607D4252E0A8200E160CB /* Preview Assets.xcassets */; };
+		A4F607E0252E0A8200E160CB /* airPodProScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F607DF252E0A8200E160CB /* airPodProScannerTests.swift */; };
+		A4F607EB252E0A8200E160CB /* airPodProScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F607EA252E0A8200E160CB /* airPodProScannerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F607DC252E0A8200E160CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F607C2252E0A8100E160CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F607C9252E0A8100E160CB;
+			remoteInfo = airPodProScanner;
+		};
+		A4F607E7252E0A8200E160CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F607C2252E0A8100E160CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F607C9252E0A8100E160CB;
+			remoteInfo = airPodProScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F607CA252E0A8100E160CB /* airPodProScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airPodProScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F607CD252E0A8100E160CB /* airPodProScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airPodProScannerApp.swift; sourceTree = "<group>"; };
+		A4F607CF252E0A8100E160CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A4F607D1252E0A8200E160CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F607D4252E0A8200E160CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4F607D6252E0A8200E160CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F607DB252E0A8200E160CB /* airPodProScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airPodProScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F607DF252E0A8200E160CB /* airPodProScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airPodProScannerTests.swift; sourceTree = "<group>"; };
+		A4F607E1252E0A8200E160CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F607E6252E0A8200E160CB /* airPodProScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = airPodProScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F607EA252E0A8200E160CB /* airPodProScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airPodProScannerUITests.swift; sourceTree = "<group>"; };
+		A4F607EC252E0A8200E160CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F607C7252E0A8100E160CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607D8252E0A8200E160CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607E3252E0A8200E160CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F607C1252E0A8100E160CB = {
+			isa = PBXGroup;
+			children = (
+				A4F607CC252E0A8100E160CB /* airPodProScanner */,
+				A4F607DE252E0A8200E160CB /* airPodProScannerTests */,
+				A4F607E9252E0A8200E160CB /* airPodProScannerUITests */,
+				A4F607CB252E0A8100E160CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F607CB252E0A8100E160CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F607CA252E0A8100E160CB /* airPodProScanner.app */,
+				A4F607DB252E0A8200E160CB /* airPodProScannerTests.xctest */,
+				A4F607E6252E0A8200E160CB /* airPodProScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F607CC252E0A8100E160CB /* airPodProScanner */ = {
+			isa = PBXGroup;
+			children = (
+				A4F607CD252E0A8100E160CB /* airPodProScannerApp.swift */,
+				A4F607CF252E0A8100E160CB /* ContentView.swift */,
+				A4F607D1252E0A8200E160CB /* Assets.xcassets */,
+				A4F607D6252E0A8200E160CB /* Info.plist */,
+				A4F607D3252E0A8200E160CB /* Preview Content */,
+			);
+			path = airPodProScanner;
+			sourceTree = "<group>";
+		};
+		A4F607D3252E0A8200E160CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A4F607D4252E0A8200E160CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4F607DE252E0A8200E160CB /* airPodProScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F607DF252E0A8200E160CB /* airPodProScannerTests.swift */,
+				A4F607E1252E0A8200E160CB /* Info.plist */,
+			);
+			path = airPodProScannerTests;
+			sourceTree = "<group>";
+		};
+		A4F607E9252E0A8200E160CB /* airPodProScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F607EA252E0A8200E160CB /* airPodProScannerUITests.swift */,
+				A4F607EC252E0A8200E160CB /* Info.plist */,
+			);
+			path = airPodProScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F607C9252E0A8100E160CB /* airPodProScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F607EF252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScanner" */;
+			buildPhases = (
+				A4F607C6252E0A8100E160CB /* Sources */,
+				A4F607C7252E0A8100E160CB /* Frameworks */,
+				A4F607C8252E0A8100E160CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = airPodProScanner;
+			productName = airPodProScanner;
+			productReference = A4F607CA252E0A8100E160CB /* airPodProScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F607DA252E0A8200E160CB /* airPodProScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F607F2252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScannerTests" */;
+			buildPhases = (
+				A4F607D7252E0A8200E160CB /* Sources */,
+				A4F607D8252E0A8200E160CB /* Frameworks */,
+				A4F607D9252E0A8200E160CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F607DD252E0A8200E160CB /* PBXTargetDependency */,
+			);
+			name = airPodProScannerTests;
+			productName = airPodProScannerTests;
+			productReference = A4F607DB252E0A8200E160CB /* airPodProScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F607E5252E0A8200E160CB /* airPodProScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F607F5252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScannerUITests" */;
+			buildPhases = (
+				A4F607E2252E0A8200E160CB /* Sources */,
+				A4F607E3252E0A8200E160CB /* Frameworks */,
+				A4F607E4252E0A8200E160CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F607E8252E0A8200E160CB /* PBXTargetDependency */,
+			);
+			name = airPodProScannerUITests;
+			productName = airPodProScannerUITests;
+			productReference = A4F607E6252E0A8200E160CB /* airPodProScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F607C2252E0A8100E160CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A4F607C9252E0A8100E160CB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					A4F607DA252E0A8200E160CB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A4F607C9252E0A8100E160CB;
+					};
+					A4F607E5252E0A8200E160CB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = A4F607C9252E0A8100E160CB;
+					};
+				};
+			};
+			buildConfigurationList = A4F607C5252E0A8100E160CB /* Build configuration list for PBXProject "airPodProScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F607C1252E0A8100E160CB;
+			productRefGroup = A4F607CB252E0A8100E160CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F607C9252E0A8100E160CB /* airPodProScanner */,
+				A4F607DA252E0A8200E160CB /* airPodProScannerTests */,
+				A4F607E5252E0A8200E160CB /* airPodProScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F607C8252E0A8100E160CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F607D5252E0A8200E160CB /* Preview Assets.xcassets in Resources */,
+				A4F607D2252E0A8200E160CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607D9252E0A8200E160CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607E4252E0A8200E160CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F607C6252E0A8100E160CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F607D0252E0A8100E160CB /* ContentView.swift in Sources */,
+				A4F607CE252E0A8100E160CB /* airPodProScannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607D7252E0A8200E160CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F607E0252E0A8200E160CB /* airPodProScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F607E2252E0A8200E160CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F607EB252E0A8200E160CB /* airPodProScannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F607DD252E0A8200E160CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F607C9252E0A8100E160CB /* airPodProScanner */;
+			targetProxy = A4F607DC252E0A8200E160CB /* PBXContainerItemProxy */;
+		};
+		A4F607E8252E0A8200E160CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F607C9252E0A8100E160CB /* airPodProScanner */;
+			targetProxy = A4F607E7252E0A8200E160CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4F607ED252E0A8200E160CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F607EE252E0A8200E160CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F607F0252E0A8200E160CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"airPodProScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = airPodProScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4F607F1252E0A8200E160CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"airPodProScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = airPodProScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4F607F3252E0A8200E160CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				INFOPLIST_FILE = airPodProScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airPodProScanner.app/airPodProScanner";
+			};
+			name = Debug;
+		};
+		A4F607F4252E0A8200E160CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				INFOPLIST_FILE = airPodProScannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/airPodProScanner.app/airPodProScanner";
+			};
+			name = Release;
+		};
+		A4F607F6252E0A8200E160CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				INFOPLIST_FILE = airPodProScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airPodProScanner;
+			};
+			name = Debug;
+		};
+		A4F607F7252E0A8200E160CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GVTQ828J;
+				INFOPLIST_FILE = airPodProScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "saitama-tec.co.jp.airpod.airPodProScannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = airPodProScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F607C5252E0A8100E160CB /* Build configuration list for PBXProject "airPodProScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F607ED252E0A8200E160CB /* Debug */,
+				A4F607EE252E0A8200E160CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F607EF252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F607F0252E0A8200E160CB /* Debug */,
+				A4F607F1252E0A8200E160CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F607F2252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F607F3252E0A8200E160CB /* Debug */,
+				A4F607F4252E0A8200E160CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F607F5252E0A8200E160CB /* Build configuration list for PBXNativeTarget "airPodProScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F607F6252E0A8200E160CB /* Debug */,
+				A4F607F7252E0A8200E160CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F607C2252E0A8100E160CB /* Project object */;
+}
